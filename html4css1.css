@@ -1,0 +1,28 @@
+body {
+    font-family: Open Sans,Arial;
+    color: #454545;
+    font-size: 1.2em;
+    margin: 2em auto;
+    max-width: 700px;
+    padding: 1em;
+    line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  border: none;
+  border-collapse: collapse;
+}
+th, td {
+  border: none;
+  padding: 0.2em;
+}
+th {
+  background: #ddf;
+}
+td:first-child {
+  border-right: 1px solid #333;
+}
