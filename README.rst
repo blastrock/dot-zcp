@@ -12,7 +12,7 @@ Who am I?
 My name is Philippe Daouadi. I am a French developer, and I like typing comfortably.
 
 I started learning touch typing (typing without looking at the keyboard) around
-10 years ago with the French azerty layout. Some time later, I discovered that a
+10 years ago with the French AZERTY layout. Some time later, I discovered that a
 lot of better keyboard layouts existed. At the time I used to type a lot of
 French, so after some thinking and a lot of motivation, I decided on learning
 the BÉPO layout which is a kind of French Dvorak.
@@ -96,6 +96,10 @@ layout.
 I didn't try to optimize characters as '[' and ']' as it would not make much
 sense in English. Also they already are in difficult spots so it's better to
 keep them there, as to ease transition from other layouts.
+
+Thanks to these relaxed constraints ('.' and ',' can move) and a different
+effort model (e.g. 'T' and 'Y' have the same typing effort), carpalx was able to
+find a better layout than the previous best QGMLWB.
 
 An ergonomic keyboard layout: .ZCP
 ==================================
