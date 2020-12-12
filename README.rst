@@ -147,6 +147,8 @@ Load it with:
 .. code-block:: shell
 
   setxkbmap dot-zcp -print | xkbcomp -Ix11 - $DISPLAY
+  # or
+  setxkbmap dot-zcp -variant fr -print | xkbcomp -Ix11 - $DISPLAY
 
 License
 =======

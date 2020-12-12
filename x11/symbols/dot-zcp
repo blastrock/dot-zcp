@@ -1,6 +1,6 @@
 default
 partial alphanumeric_keys
-xkb_symbols "dot-zcp" {
+xkb_symbols "main" {
 
     name[Group1] = ".ZCP";
 
@@ -56,4 +56,23 @@ xkb_symbols "dot-zcp" {
     key <AB09>	{ [     comma,       less, horizconnector,   multiply ]	};
     key <AB10>	{ [     slash,   question, dead_belowdot,    abovedot ]	};
 
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "fr" {
+    include "dot-zcp(main)"
+
+    name[Group1] = ".ZCP (AltGr fr variant)";
+
+    key <AC08>	{ [         e,          E,       eacute,       Eacute ]	};
+    key <AC07>	{ [         a,          A,       agrave,       Agrave ]	};
+    key <AD07>	{ [         u,          U,       ugrave,       Ugrave ]	};
+    key <AC06>	{ [         i,          I,  ecircumflex,  Ecircumflex ]	};
+    key <AD09>	{ [         b,          B,       egrave,       Egrave ]	};
+    key <AC09>	{ [         o,          O,       egrave,       Egrave ]	};
+    key <AD06>	{ [         y,          Y,  ucircumflex,  Ucircumflex ]	};
+    key <AB03>	{ [         c,          C,     ccedilla,     Ccedilla ]	};
+
+    //include "level3(ralt_switch)"
 };
