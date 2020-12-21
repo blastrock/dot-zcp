@@ -65,14 +65,16 @@ xkb_symbols "fr" {
 
     name[Group1] = ".ZCP (AltGr fr variant)";
 
-    key <AC08>	{ [         e,          E,       eacute,       Eacute ]	};
-    key <AC07>	{ [         a,          A,       agrave,       Agrave ]	};
-    key <AD07>	{ [         u,          U,       ugrave,       Ugrave ]	};
-    key <AC06>	{ [         i,          I,  ecircumflex,  Ecircumflex ]	};
-    key <AD09>	{ [         b,          B,       egrave,       Egrave ]	};
-    key <AC09>	{ [         o,          O,       egrave,       Egrave ]	};
     key <AD06>	{ [         y,          Y,  ucircumflex,  Ucircumflex ]	};
+    key <AD07>	{ [         u,          U,       ugrave,       Ugrave ]	};
+    key <AD08>	{ [         f,          F,  ecircumflex,  Ecircumflex ]	};
+    key <AD09>	{ [         b,          B,       egrave,       Egrave ]	};
+    key <AC06>	{ [         i,          I,  icircumflex,  Icircumflex ]	};
+    key <AC07>	{ [         a,          A,       agrave,       Agrave ]	};
+    key <AC08>	{ [         e,          E,       eacute,       Eacute ]	};
+    key <AC09>	{ [         o,          O,  ocircumflex,  Ocircumflex ]	};
     key <AB03>	{ [         c,          C,     ccedilla,     Ccedilla ]	};
+    key <AB07>	{ [         x,          X,  acircumflex,  Acircumflex ]	};
 
     //include "level3(ralt_switch)"
 };
