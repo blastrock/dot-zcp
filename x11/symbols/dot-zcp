@@ -75,6 +75,7 @@ xkb_symbols "fr" {
     key <AC09>	{ [         o,          O,  ocircumflex,  Ocircumflex ]	};
     key <AB03>	{ [         c,          C,     ccedilla,     Ccedilla ]	};
     key <AB07>	{ [         x,          X,  acircumflex,  Acircumflex ]	};
+    key <AE12>	{ [     equal,       plus,     EuroSign,       ogonek ]	};
 
     //include "level3(ralt_switch)"
 };
